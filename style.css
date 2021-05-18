@@ -107,3 +107,16 @@
       display: none;
   }
 
+  .item__checkbox--3 {
+    color: #008984;
+    border-color: #008984;
+  }
+
+  .item__checked {
+    color: green;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+  }
+
+ 
