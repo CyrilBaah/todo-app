@@ -7,9 +7,9 @@
   }
 
   .container {
-      background: #ffffff;
+      background: turquoise;
       width: 500px;
-      margin: 20vh 15px 20vh 15px;
+      margin: 7vh 15px 20vh 15px;
       padding: 45px 35px;
       display: flex;
       flex-direction: column;
@@ -32,11 +32,11 @@
 
   .nav__item:hover,
   .nav__item:focus {
-      color: #00ffdd;
+      color: greenyellow;
   }
 
   .nav__item.active {
-      color: #00b9a0;
+      color: blue;
   }
 
   .add {
@@ -119,13 +119,31 @@
     align-items: center;
   }
 
-  p{
+  .doing{
       text-decoration: line-through;
   }
 
   h1{
       text-align: center;
       color: teal;
+  }
+
+  .heading{
+      color:blue;
+  }
+
+  .todo{
+      background-color: teal;
+  }
+
+  .doing{
+      text-decoration: none;
+      background-color: peru;
+  }
+
+  .done{
+      text-decoration: line-through;
+      background-color: green;
   }
 
  
